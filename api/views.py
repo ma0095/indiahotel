@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from api.models import menu_items
+from api.models import  menu_items
 
 # Create your views here.
 class DishesView(APIView):
